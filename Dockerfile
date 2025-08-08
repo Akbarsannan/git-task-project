@@ -1,5 +1,4 @@
-M alpine
-RUN echo "App Version 1" > /version.txt
+FROM ubuntu
+RUN echo "Ubuntu-based App" > /version.txt
 CMD ["cat", "/version.txt"]
-
 
